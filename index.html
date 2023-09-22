@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caspit Group</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
+    <link rel="apple-touch-icon" href="assets/img/favicon-152x152.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/img/favicon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/img/favicon-152x152.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="assets/img/favicon-152x152.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="_container header__container">
+        <div class="header__wrapper">
+          <div class="header__item">
+            <ul class="menu__lang">
+              <li><p class="lang-item lang-item-current">eng</p></li>
+              <li><a class="lang-item" href="#">ua</a></li>
+            </ul>
+          </div>
+          <div class="header__item half">
+            <a class="header__phone" href="tel:+35722052918">+357 220 529 18</a>
+            <button
+              class="header-button popup-open"
+              data-popup="_popup-menu"
+              title="open menu"
+            >
+              <span class="header-button__title">menu</span>
+              <span class="header-button__burger">
+                <img
+                  src="assets/img/burger.svg"
+                  alt="burger"
+                  draggable="false"
+                />
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-menu menu__popup"
+        data-popupname="_popup-menu"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close">
+              <img
+                src="assets/img/popup-close.svg"
+                alt="close"
+                draggable="false"
+              />
+            </button>
+            <div class="popup__content">
+              <nav class="menu">
+                <ul class="menu-list">
+                  <li class="menu-list__item">
+                    <a class="menu__link anchor" href="#" data-goto=".trading">
+                      Trading
+                    </a>
+                  </li>
+                  <li class="menu-list__item">
+                    <a
+                      class="menu__link anchor"
+                      href="#"
+                      data-goto=".renewable"
+                    >
+                      Renewable power engineering
+                    </a>
+                  </li>
+                  <li class="menu-list__item">
+                    <a
+                      class="menu__link anchor"
+                      href="#"
+                      data-goto=".financing"
+                    >
+                      Financing
+                    </a>
+                  </li>
+                  <li class="menu-list__item">
+                    <a
+                      class="menu__link anchor"
+                      href="#"
+                      data-goto=".production"
+                    >
+                      Production
+                    </a>
+                  </li>
+                  <li class="menu-list__item">
+                    <a
+                      class="menu__link anchor"
+                      href="#"
+                      data-goto=".how-contact"
+                    >
+                      Contact us
+                    </a>
+                  </li>
+                  <li class="menu-list__item">
+                    <a
+                      class="menu__link"
+                      href="tel:+35722052918"
+                      data-goto="false"
+                    >
+                      +357 220 529 18
+                    </a>
+                  </li>
+                </ul>
+                <a class="menu__link menu__address" href="#">
+                  17 Ifigeneias Street 2007 Strovolos, Nicosia Cyprus
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-common about__popup"
+        data-popupname="_popup-about"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close">
+              <img
+                src="assets/img/popup-close.svg"
+                alt="close"
+                draggable="false"
+              />
+            </button>
+            <div class="popup__content">
+              <p class="popup__title">popup</p>
+              <p class="popup__subtitle">popup</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-feedback thanks__popup"
+        data-popupname="_popup-thanks"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close">
+              <img
+                src="assets/img/popup-close.svg"
+                alt="close"
+                draggable="false"
+              />
+            </button>
+            <div class="popup__content">
+              <div class="popup__label">
+                <img
+                  src="assets/img/label-thanks.svg"
+                  alt="thanks"
+                  draggable="false"
+                />
+              </div>
+              <p class="popup__title">
+                Спасибо! Мы свяжемся с вами в ближайшее время
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-form form-investor__popup fullscreen-phone"
+        data-popupname="_popup-form-investor"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close">
+              <img
+                src="assets/img/popup-close.svg"
+                alt="close"
+                draggable="false"
+              />
+            </button>
+            <div class="popup__content">
+              <div class="action">
+                <div class="action__header">
+                  <p class="action__title">Appoint a meeting</p>
+                  <p class="action__subtitle">
+                    Fill form and we will contact with you
+                  </p>
+                </div>
+                <div class="action__main">
+                  <form class="action-form form" action="post">
+                    <div>
+                      <label for="name">
+                        <input
+                          id="investor-name"
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="email">
+                        <input
+                          id="investor-email"
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="telephone">
+                        <input
+                          id="investor-telephone"
+                          type="tel"
+                          name="telephone"
+                          placeholder="Phone"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="company">
+                        <input
+                          id="investor-company"
+                          type="text"
+                          name="company"
+                          placeholder="Company"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="title">
+                        <input
+                          id="investor-title"
+                          type="text"
+                          name="title"
+                          placeholder="Title"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="request">
+                        <textarea
+                          id="investor-request"
+                          name="request"
+                          placeholder="Your Request"
+                        >
+                        </textarea>
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <button type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-form form-partner__popup fullscreen-phone"
+        data-popupname="_popup-form-partner"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close">
+              <img
+                src="assets/img/popup-close.svg"
+                alt="close"
+                draggable="false"
+              />
+            </button>
+            <div class="popup__content">
+              <div class="action">
+                <div class="action__header">
+                  <p class="action__title">Become a partner</p>
+                  <p class="action__subtitle">
+                    Fill form and we will contact with you
+                  </p>
+                </div>
+                <div class="action__main">
+                  <form class="action-form form" action="post">
+                    <div>
+                      <label for="name">
+                        <input
+                          id="partner-name"
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="email">
+                        <input
+                          id="partner-email"
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="telephone">
+                        <input
+                          id="partner-telephone"
+                          type="tel"
+                          name="telephone"
+                          placeholder="Phone"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="company">
+                        <input
+                          id="partner-company"
+                          type="text"
+                          name="company"
+                          placeholder="Company"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="title">
+                        <input
+                          id="partner-title"
+                          type="text"
+                          name="title"
+                          placeholder="Title"
+                        />
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label for="request">
+                        <textarea
+                          id="partner-request"
+                          name="request"
+                          placeholder="Your Request"
+                        >
+                        </textarea>
+                        <span class="wpcf7-not-valid-tip">Невірний формат</span>
+                      </label>
+                    </div>
+                    <button type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner show-animation">
+      <div class="banner-bg show-animation__item" data-duration="3500">
+        <div class="banner-bg__media">
+          <video
+            class="video"
+            disablePictureInPicture
+            preload="metadata"
+            playsinline
+            loop
+            muted
+            autoplay
+          >
+            <source data-src="assets/video/banner.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="_container banner__container">
+        <div class="banner__wrapper">
+          <div class="banner__item">
+            <p class="banner__title show-animation__item">Group of companies</p>
+            <div
+              class="logo-link banner__logo show-animation__item"
+              data-duration="2000"
+              data-animation="fadeInUp"
+            >
+              <img
+                class="desktop"
+                src="assets/img/logo.svg"
+                alt="logo"
+                draggable="false"
+              />
+              <img
+                class="mobile"
+                src="assets/img/logo-light.svg"
+                alt="logo"
+                draggable="false"
+              />
+            </div>
+          </div>
+          <div class="banner__item light">
+            <p class="banner__description">
+              We have considerable work experience in the areas of
+              petrochemistry, power engineering and fertilizer production. We
+              built and we operate our own industry and logistical
+              infrastructure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="frame about show-animation">
+      <div class="_container frame__container">
+        <div class="frame__wrapper">
+          <div class="frame__img">
+            <div class="frame__img__container">
+              <img
+                class="show-animation__item"
+                data-duration="2000"
+                data-animation="fadeInRightBottom"
+                src="assets/img/label-about.svg"
+                alt="about"
+              />
+            </div>
+          </div>
+          <div class="frame__content">
+            <h2
+              class="frame__title show-animation__item"
+              data-duration="800"
+              data-animation="fadeInLeft"
+            >
+              Every day we consistently develop the Caspit company group.
+            </h2>
+            <p
+              class="frame__description show-animation__item"
+              data-duration="1200"
+              data-animation="fadeInLeft"
+            >
+              Stability, forecastability and responsibility for the undertaken
+              obligations are the foundation of our business philosophy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="categories__list">
+      <section class="show-animation categories trading">
+        <div
+          class="categories-bg show-animation__item"
+          data-duration="100"
+          data-animation="no-animate"
+        >
+          <img
+            src="assets/img/categories/category-1.jpg"
+            alt="Trading"
+            draggable="false"
+            loading="lazy"
+          />
+        </div>
+        <div class="_container categories__container">
+          <div class="categories__wrapper">
+            <div class="categories__content">
+              <h2
+                class="categories__title show-animation__item"
+                data-duration="800"
+                data-animation="fadeInLeft"
+              >
+                Trading
+              </h2>
+              <div
+                class="categories__description show-animation__item"
+                data-duration="1200"
+                data-animation="fadeInLeft"
+              >
+                <p>
+                  The basis of the Caspit group business is trading operations
+                  (fertilizers, agrarian and petrochemical products).
+                </p>
+                <p>
+                  Our advantage is significant competence in the area of
+                  forecasting the demand and price growth in the global product
+                  markets.
+                </p>
+                <p>
+                  Close cooperation with the global manufacturers gives us an
+                  opportunity to achieve optimal results for us and our
+                  partners.
+                </p>
+              </div>
+              <ul
+                class="categories__subtitle show-animation__item"
+                data-duration="1600"
+                data-animation="fadeInLeft"
+              >
+                Our projects
+              </ul>
+              <div
+                class="categories__projects__list show-animation__item"
+                data-duration="1600"
+                data-animation="fadeInLeft"
+              >
+                <li>
+                  Mainstay Capital LLC. – Central Asia and Middle East
+                  countries;
+                </li>
+                <li>Wakler DOO – the Balkan region;</li>
+                <li>Overtech Sp.z.o.o. – countries of the European Union;</li>
+                <li>Caspit trade llc. – Ukraine.</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="show-animation categories renewable reverse">
+        <div
+          class="categories-bg show-animation__item"
+          data-duration="100"
+          data-animation="no-animate"
+        >
+          <img
+            src="assets/img/categories/category-2.jpg"
+            alt="Renewable power engineering"
+            draggable="false"
+            loading="lazy"
+          />
+        </div>
+        <div class="_container categories__container">
+          <div class="categories__wrapper">
+            <div class="categories__content">
+              <h2
+                class="categories__title show-animation__item"
+                data-duration="800"
+                data-animation="fadeInLeft"
+              >
+                Renewable power engineering
+              </h2>
+              <div
+                class="categories__description show-animation__item"
+                data-duration="1200"
+                data-animation="fadeInLeft"
+              >
+                <p>
+                  Our team successfully implements projects of solar power
+                  station construction on a turnkey basis.
+                </p>
+                <p>
+                  We are researching and developing the project of green ammonia
+                  production.
+                </p>
+              </div>
+              <ul
+                class="categories__subtitle show-animation__item"
+                data-duration="1600"
+                data-animation="fadeInLeft"
+              >
+                Our projects
+              </ul>
+              <div
+                class="categories__projects__list show-animation__item"
+                data-duration="1600"
+                data-animation="fadeInLeft"
+              >
+                <li>
+                  OngSolar LLC. – our own solar generation; projects implemented
+                  on a turnkey basis.
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="show-animation categories financing">
+        <div
+          class="categories-bg show-animation__item"
+          data-duration="100"
+          data-animation="no-animate"
+        >
+          <img
+            src="assets/img/categories/category-3.jpg"
+            alt="Financing"
+            draggable="false"
+            loading="lazy"
+          />
+        </div>
+        <div class="_container categories__container">
+          <div class="categories__wrapper">
+            <div class="categories__content">
+              <h2
+                class="categories__title show-animation__item"
+                data-duration="800"
+                data-animation="fadeInLeft"
+              >
+                Financing
+              </h2>
+              <div
+                class="categories__description show-animation__item"
+                data-duration="1200"
+                data-animation="fadeInLeft"
+              >
+                <p>
+                  The partner financing programs always improve the quality of
+                  service provision.
+                </p>
+                <p>
+                  We created a convenient and quick system of decision making in
+                  terms of financing the agrarian, utilities and production
+                  sectors.
+                </p>
+              </div>
+              <ul
+                class="categories__subtitle show-animation__item"
+                data-duration="1600"
+                data-animation="fadeInLeft"
+              >
+                Our projects
+              </ul>
+              <div
+                class="categories__projects__list show-animation__item"
+                data-duration="1600"
+                data-animation="fadeInLeft"
+              >
+                <li>
+                  EximLeasing – a leasing company that has been successfully
+                  providing services for more than 10 years;
+                </li>
+                <li>
+                  Diskorb LLC – involving financing from international
+                  institutes, supporting the grant schemes and covering the
+                  whole range of works, from audit to receiving funds.
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="show-animation categories production reverse">
+        <div
+          class="categories-bg show-animation__item"
+          data-duration="100"
+          data-animation="no-animate"
+        >
+          <img
+            src="assets/img/categories/category-4.jpg"
+            alt="Production"
+            draggable="false"
+            loading="lazy"
+          />
+        </div>
+        <div class="_container categories__container">
+          <div class="categories__wrapper">
+            <div class="categories__content">
+              <h2
+                class="categories__title show-animation__item"
+                data-duration="800"
+                data-animation="fadeInLeft"
+              >
+                Production
+              </h2>
+              <div
+                class="categories__description show-animation__item"
+                data-duration="1200"
+                data-animation="fadeInLeft"
+              >
+                <p>
+                  Our own production, development of efficient formulas and
+                  methods of fertilizer use gives us an opportunity to offer
+                  high-quality products at the best prices to our partners.
+                </p>
+              </div>
+              <ul
+                class="categories__subtitle show-animation__item"
+                data-duration="1600"
+                data-animation="fadeInLeft"
+              >
+                Our projects
+              </ul>
+              <div
+                class="categories__projects__list show-animation__item"
+                data-duration="1600"
+                data-animation="fadeInLeft"
+              >
+                <li>Dunger llc – mineral fertilizer production;</li>
+                <li>
+                  Wakler doo – production of liquid phosphatic fertilizers in
+                  cooperation with the Elixir Zorka Serbian manufacturer; basic
+                  products (liquid complex fertilizers 10:34).
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="benefits show-animation">
+      <div class="_container benefits__container">
+        <div class="benefits__wrapper">
+          <div class="benefits__item">
+            <h3
+              class="benefits__title show-animation__item"
+              data-duration="800"
+              data-animation="fadeInLeft"
+            >
+              Advanced infrastructure
+            </h3>
+            <div
+              class="benefits__description show-animation__item"
+              data-duration="1200"
+              data-animation="fadeInLeft"
+            >
+              Due to an array of dedicated companies under our rule we are able
+              to commit to full cycle of goods reach. With own production,
+              warehouses, logistic and vehicle fleet, the advanced
+              infrastructure enables us to be on point with deadlines and be
+              rock-solid when it comes to execution of daily operations.
+              <br />
+              <br />
+              Therefore we invest a major chunk of investments in extending the
+              development of the infrastructure and bringing in new companies.
+              CASPIT’s team delivers results steadily while running operations
+              under unstable economic conditions: thanks to having margin at all
+              stages of our business we are partially safeguarded from
+              downturns.
+            </div>
+          </div>
+          <div class="benefits__item">
+            <h3
+              class="benefits__title show-animation__item"
+              data-duration="1500"
+              data-animation="fadeInLeft"
+            >
+              Spotless public perception
+            </h3>
+            <div
+              class="benefits__description show-animation__item"
+              data-duration="2000"
+              data-animation="fadeInLeft"
+            >
+              We honor what we do, so do our clients pay us with the same
+              courtesy. The PR track record is clear: thanks to not partaking in
+              political scandals, public conflicts and honouring what we do we
+              are able to uphold the reputation and commit to a constantly high
+              performance/results output for our clients.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="how-contact show-animation">
+      <div class="_container how-contact__container">
+        <div class="how-contact__wrapper">
+          <h2
+            class="show-animation__item how-contact__title"
+            data-duration="800"
+            data-animation="fadeInLeft"
+          >
+            How can you contact us
+          </h2>
+          <ul class="how-contact-list">
+            <li class="how-contact-list__item">
+              <div class="how-contact-list__bg">
+                <div class="how-contact-list__bg__container">
+                  <img
+                    class="show-animation__item"
+                    data-duration="400"
+                    data-animation="fadeInRightUp"
+                    src="assets/img/how-contact.svg"
+                    alt="As investors"
+                  />
+                </div>
+              </div>
+              <div class="how-contact-list__content">
+                <h3
+                  class="how-contact-list__title show-animation__item"
+                  data-duration="400"
+                  data-animation="fadeInLeft"
+                >
+                  As investors
+                </h3>
+                <p
+                  class="show-animation__item how-contact-list__description"
+                  data-duration="1200"
+                  data-animation="fadeInLeft"
+                >
+                  We are opened to co-founding various forward-looking
+                  infrastructure projects. Through our capacities we can give
+                  you a hand with tackling demanding projects, making sure it’s
+                  a smart investment. Up our sleeve we have a number of
+                  innovative ideas that can bolster the market, concurrently
+                  raising our efficacy.
+                </p>
+                <button
+                  class="show-animation__item how-contact-list__button button-dark popup-open"
+                  data-duration="1200"
+                  data-animation="fadeInLeft"
+                  data-popup="_popup-form-investor"
+                  title="open menu"
+                >
+                  Appoint a meeting
+                </button>
+              </div>
+            </li>
+            <li class="how-contact-list__item">
+              <div class="how-contact-list__bg">
+                <div class="how-contact-list__bg__container">
+                  <img
+                    class="show-animation__item"
+                    data-duration="1100"
+                    data-animation="fadeInRightUp"
+                    src="assets/img/how-contact.svg"
+                    alt="As partners"
+                  />
+                </div>
+              </div>
+              <div class="how-contact-list__content">
+                <h3
+                  class="how-contact-list__title show-animation__item"
+                  data-duration="1100"
+                  data-animation="fadeInLeft"
+                >
+                  As partners
+                </h3>
+                <p
+                  class="show-animation__item how-contact-list__description"
+                  data-duration="1900"
+                  data-animation="fadeInLeft"
+                >
+                  We stand ready to integrate your projects to our ecosystem in
+                  case it does not yield to desired results. Your projects will
+                  get a second-wind via our vetted distribution, logistics and
+                  storage capacities; In case you might want to unload the
+                  operational burden, we are also opened to take it over and
+                  reduce costs.
+                </p>
+                <button
+                  class="show-animation__item how-contact-list__button button-dark popup-open"
+                  data-duration="1900"
+                  data-animation="fadeInLeft"
+                  data-popup="_popup-form-partner"
+                  title="open menu"
+                >
+                  Become a partner
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="frame follow show-animation">
+      <div class="_container frame__container">
+        <div class="frame__wrapper">
+          <div class="frame__img">
+            <div class="frame__img__container">
+              <img
+                class="show-animation__item"
+                data-duration="2000"
+                data-animation="fadeInRightBottom"
+                src="assets/img/label-about.svg"
+                alt="follow"
+              />
+            </div>
+          </div>
+          <div class="frame__content">
+            <h2
+              class="frame__title show-animation__item"
+              data-duration="800"
+              data-animation="fadeInLeft"
+            >
+              Playing the long game
+            </h2>
+            <p
+              class="show-animation__item frame__description"
+              data-duration="1200"
+              data-animation="fadeInLeft"
+            >
+              We want to conclude with the following statement: we are up for
+              the long game. Being infinitely and innately curious in the
+              domains we stand, we wish to be beneficial to the market we are
+              in. If your vision coincides, we are happy to lend a hand.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section contacts show-animation">
+      <div class="_container contacts__container">
+        <div class="contacts__wrapper">
+          <div class="contacts__info">
+            <div
+              class="contacts__header show-animation__item"
+              data-duration="800"
+              data-animation="fadeIn"
+            >
+              <p class="contacts__title">Group of companies</p>
+              <div class="logo-link contacts__logo">
+                <img src="assets/img/logo.svg" alt="logo" draggable="false" />
+              </div>
+            </div>
+            <p class="contacts__description desktop">
+              For any requests, call or us of fill in the feedback form, we’ll
+              come back to you shortly.
+            </p>
+            <ul class="contacts-list">
+              <li>
+                <a class="contacts__link" href="tel:+35722052918">
+                  +357 220 529 18
+                </a>
+              </li>
+              <li>
+                <a
+                  class="contacts__link"
+                  href="https://goo.gl/maps/8CgZu4ivNTLRwDZA6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  17 Ifigeneias Street 2007 Strovolos, Nicosia Cyprus
+                </a>
+              </li>
+            </ul>
+            <p class="contacts__description mobile">
+              For any requests, call or us of fill in the feedback form, we’ll
+              come back to you shortly.
+            </p>
+          </div>
+          <form class="contacts-form form" action="post">
+            <div>
+              <label for="name">
+                <strong>Name</strong>
+                <input id="name" type="text" name="name" placeholder="Name" />
+                <span class="wpcf7-not-valid-tip">Невірний формат</span>
+              </label>
+            </div>
+            <div>
+              <label for="email">
+                <strong>Email</strong>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <span class="wpcf7-not-valid-tip">Невірний формат</span>
+              </label>
+            </div>
+            <div>
+              <label for="telephone">
+                <strong>Phone</strong>
+                <input
+                  id="telephone"
+                  type="tel"
+                  name="telephone"
+                  placeholder="Phone"
+                />
+                <span class="wpcf7-not-valid-tip">Невірний формат</span>
+              </label>
+            </div>
+            <div>
+              <label for="company">
+                <strong>Company</strong>
+                <input
+                  id="company"
+                  type="text"
+                  name="company"
+                  placeholder="Company"
+                />
+                <span class="wpcf7-not-valid-tip">Невірний формат</span>
+              </label>
+            </div>
+            <div>
+              <label for="title">
+                <strong>Title</strong>
+                <input
+                  id="title"
+                  type="text"
+                  name="title"
+                  placeholder="Title"
+                />
+                <span class="wpcf7-not-valid-tip">Невірний формат</span>
+              </label>
+            </div>
+            <div>
+              <label for="request">
+                <strong>Your request</strong>
+                <textarea
+                  id="request"
+                  name="request"
+                  placeholder="Your Request"
+                >
+                </textarea>
+                <span class="wpcf7-not-valid-tip">Невірний формат</span></label
+              >
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="_container footer__container">
+        <div class="footer__wrapper">
+          <nav class="footer-menu">
+            <ul class="footer-menu-list">
+              <div class="footer-menu-list__column">
+                <li class="footer-menu-list__item">
+                  <a
+                    class="footer__link anchor"
+                    href="#"
+                    data-goto=".petrochemicals"
+                  >
+                    Petrochemicals
+                  </a>
+                </li>
+                <li class="footer-menu-list__item">
+                  <a
+                    class="footer__link anchor"
+                    href="#"
+                    data-goto=".financing"
+                  >
+                    Financing
+                  </a>
+                </li>
+                <li class="footer-menu-list__item">
+                  <a
+                    class="footer__link anchor"
+                    href="#"
+                    data-goto=".solar-energy"
+                  >
+                    Solar energy
+                  </a>
+                </li>
+              </div>
+              <div class="footer-menu-list__column">
+                <li class="footer-menu-list__item">
+                  <a
+                    class="footer__link anchor"
+                    href="#"
+                    data-goto=".fertilizers"
+                  >
+                    Fertilizers
+                  </a>
+                </li>
+                <li class="footer-menu-list__item">
+                  <a
+                    class="footer__link anchor"
+                    href="#"
+                    data-goto=".logistics"
+                  >
+                    Logistics
+                  </a>
+                </li>
+                <li class="footer-menu-list__item">
+                  <a
+                    class="footer__link anchor"
+                    href="#"
+                    data-goto=".how-contact"
+                  >
+                    Contact us
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </nav>
+          <div class="footer__impulse">
+            <p>by</p>
+            <a
+              href="https://impulse-design.com.ua/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="assets/img/impulse-logo.png" alt="impulse design" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vevet@2.17.0/build/cdn/index.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
